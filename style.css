@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.title{
+    text-align:center ;
+    color: #e74c3c;
+}
+/* ESTILOS DE LOS PRIMEROS DATOS DIV: POKEMONDATA */
+
+.pokemonData {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .pokemonName {
+    flex: 1;
+    font-size: 20px;
+  }
+  
+  .id,
+  .base,
+  p {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  /* ESTILOS DE LA LISTA DE JUEGOS  DIV: GAMELIST */
+
+.listGames {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .listGames ol {
+    list-style: none;
+    padding: 0;
+  }
+
+  .listTitle {
+    text-align: center;
+    font-size: 20px;
+    background-color: #e74c3c; 
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .listGames li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .listGames li:last-child {
+    border-bottom: none;
+  }
+  
+
+  .listGames li:hover {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+  }
+
+/*   ESTILOS DEL TIPO */
+
+  .type {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #00ff00; 
+    text-transform: uppercase;
+  }
+/*ESTILOS DE LA LISTA DE MOVIMIENTOS */
+
+.listMoves {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .movesList {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e74c3c;
+    text-transform: uppercase;
+  }
+  
+  .listMoves {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .move {
+    padding: 0.5rem;
+    border: 1px solid #00ff00;
+    background-color: #111;
+    color: #00ff00;
+    
+  }
+  .moves li:hover {
+    background-color: #e4edf3;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .item {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #00ff00; 
+    text-transform: uppercase;
+  }
+
+/* ITEM Y AREA DE LOCALIZACION  */
+
+#itemLocation {
+    margin-top: 2rem;
+    border: 1px solid #00ff00;
+    padding: 1rem;
+    background-color: #111;
+    color: #00ff00;
+  }
+  
+  .lA {
+    margin-bottom: 0.5rem;
+  }
+  
+  

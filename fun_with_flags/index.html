@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="head">
+      <h2>Where in the world</h2>
+      <button type="button" class="btn">
+        <svg
+          viewBox="0 0 24 24"
+          focusable="false"
+          class="chakra-icon css-onkibi"
+        >
+          <path
+            fill="currentColor"
+            d="M21.4,13.7C20.6,13.9,19.8,14,19,14c-5,0-9-4-9-9c0-0.8,0.1-1.6,0.3-2.4c0.1-0.3,0-0.7-0.3-1 c-0.3-0.3-0.6-0.4-1-0.3C4.3,2.7,1,7.1,1,12c0,6.1,4.9,11,11,11c4.9,0,9.3-3.3,10.6-8.1c0.1-0.3,0-0.7-0.3-1 C22.1,13.7,21.7,13.6,21.4,13.7z"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <div class="inputs">
+      <form class="form">
+        <!-- <input id='country' placeholder="Search for a country"/> -->
+        <input type="text" id="searchInput" placeholder="Search for a country" />
+        <span class="search-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </span>
+
+        <select id="mySelect">
+            <option value="option1">Select option</option>
+            <option value="option2">All</option>
+            <option value="option3">Africa</option>
+            <option value="option3">Americas</option>
+            <option value="option3">Asia</option>
+            <option value="option3">Europe</option>
+            <option value="option3">Oceania</option>
+          </select>
+          
+      </form>
+    </div>
+    <div class="flagsSection">
+        
+    </div>
     <script src="flags.js"></script>
-</body>
+  </body>
 </html>

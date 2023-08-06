@@ -47,7 +47,12 @@
   /* Estilos para el formulario */
   .form {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    
+    justify-content: space-between;
+
+  
+    
     
   }
   
@@ -80,4 +85,63 @@
     cursor: pointer;
     justify-content: flex-end;
   }
+  /* CODIGO DIV BANDERAS */
+
+  /* Estilos generales para la sección de banderas */
+.flagsSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Estilos para cada tarjeta de país */
+  .countryCard {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    width: 220px;
+  }
+  
+  
+  /* Estilos para la imagen de la bandera */
+  .flagImg {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el nombre del país */
+  .flagName {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+  }
+/* Estilos boton   */
+
+/* Estilo base para el botón */
+#btnMore {
+    display:flex;
+    margin-top: 20px;
+    
+    
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+ 
+  
   
